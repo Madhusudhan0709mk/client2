@@ -12,17 +12,17 @@ body {
     background-color: rgb(153, 141, 141) !important;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 370px) {
     #yojana {
-        height:50vh;
-        width: 100vw;
+        height:30vh;
+        width: 100%;
     }
 
     #form{
         position: absolute;
-       height: 100px;
-       top: 360px;
-       left: 150px;
+       height: 100vh;
+       top: 30px;
+       left: 10px;
     }
 
  
