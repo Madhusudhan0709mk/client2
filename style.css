@@ -1,0 +1,52 @@
+#yojana {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 87%;
+    width: 99%;
+    object-fit: cover;
+    z-index: -2;
+}
+body {
+    color: black !important;
+    background-color: rgb(153, 141, 141) !important;
+}
+
+@media (max-width: 400px) {
+    #yojana {
+        height:50vh;
+        width: 100vw;
+    }
+
+    #form{
+        position: absolute;
+       height: 100px;
+       top: 360px;
+       left: 150px;
+    }
+
+ 
+}
+
+.background-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.form-container .col-md-6{
+    position: absolute;
+    top: 30vh;
+   
+}
+
+
+/*
+.form-container .col-md-6 {
+    left: 25vw;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Add a background to the form for better readability */
+    /* padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
