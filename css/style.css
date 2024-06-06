@@ -12,6 +12,10 @@ body {
     background-color: rgb(153, 141, 141) !important;
 }
 
+#drop{
+    display: none;
+}
+
 @media (max-width: 450px) {
     #yojana {
         height:30vh;
@@ -23,6 +27,12 @@ body {
        height: 100vh;
        top: 30px;
        left: 10px;
+    }
+    #drop{
+        display:contents;
+        padding-right: 5px;
+        position: absolute;
+        right: 3px;
     }
 
  
